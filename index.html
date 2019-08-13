@@ -5,19 +5,109 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Jquery CDN 3.4.1 -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+        crossorigin="anonymous">
+    </script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-12 custom-control custom-checkbox mb-3">
+                <p>
+                    <select name="length" class="custom-select" id="" onclick="">
+                        <option selected>Password Length Default at 20 Characters</option>
+                            <optgroup label="Weak">
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                            </optgroup>
+                            <optgroup label="Strong">
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>		
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+                                <option value="37">37</option>
+                                <option value="38">38</option>
+                                <option value="39">39</option>
+                                <option value="40">40</option>
+                                <option value="41">41</option>
+                                <option value="42">42</option>
+                                <option value="43">43</option>
+                                <option value="44">44</option>
+                                <option value="45">45</option>
+                                <option value="46">46</option>
+                                <option value="47">47</option>
+                                <option value="48">48</option>
+                                <option value="49">49</option>
+                                <option value="50">50</option>
+                            </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" class="custom-control-input" id="number" name="number">
+                    <label class="custom-control-label" for="number">Include Numbers</label>
+                </p>
+                <p>
+                    <input type="checkbox" class="custom-control-input" id="number" name="number">
+                    <label class="custom-control-label" for="number">Include Numbers</label>
+                </p>
+                <p>
+                    <input type="checkbox" class="custom-control-input" id="number" name="number">
+                    <label class="custom-control-label" for="number">Include Numbers</label>
+                </p>
+                <p>
+                    <input type="checkbox" class="custom-control-input" id="number" name="number">
+                    <label class="custom-control-label" for="number">Include Numbers</label>
+                </p>
               </div>
           </div>
       </div>
     <!-- Optional JavaScript -->
+    <script>
+
+    let numbers = [2,3,4,5,6,7,8,9];
+    let lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    let upperCase = ['A','B','C','D','E','F','G','H','J','K','M','N','P','Q','R','S','T','U','V','X','Y','Z'];
+    let symbols = ['!','@','#','$','%','&','(',')',':',';','{','}','[',']','<','>','?'];
+    let password = [];
+    console.log(password);
+    $(document).ready(function(){
+        
+        
+    });
+
+
+
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
