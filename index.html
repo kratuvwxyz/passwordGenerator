@@ -72,23 +72,14 @@
                             </optgroup>
                     </select>
                 </p>
-                <p>
+                <!-- <p>
                     <input type="checkbox" class="custom-control-input" id="number" name="number">
                     <label class="custom-control-label" for="number">Include Numbers</label>
-                </p>
-                <p>
-                    <input type="checkbox" class="custom-control-input" id="number" name="number">
-                    <label class="custom-control-label" for="number">Include Numbers</label>
-                </p>
-                <p>
-                    <input type="checkbox" class="custom-control-input" id="number" name="number">
-                    <label class="custom-control-label" for="number">Include Numbers</label>
-                </p>
-                <p>
-                    <input type="checkbox" class="custom-control-input" id="number" name="number">
-                    <label class="custom-control-label" for="number">Include Numbers</label>
-                </p>
+                </p> -->
               </div>
+          </div>
+          <div class="row">
+            <div id="myPassword"></div>
           </div>
       </div>
     <!-- Optional JavaScript -->
@@ -101,6 +92,9 @@
     let password = [];
     console.log(password);
     $(document).ready(function(){
+        
+        const passwords = password.concat(numbers, lowerCase, upperCase, symbols);
+        console.log(passwords);
         
         
     });
