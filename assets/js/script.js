@@ -62,7 +62,7 @@ $(document).ready(function () {
         let ccc = $('#gridCheck3:checked').val();
         let ddd = $('#gridCheck4:checked').val();
         let eee = $('#range').val();
-        console.log(eee);
+        //console.log(eee);
         // if none of the checkboxed clicked
         if (aaa !== "on" && bbb !== "on" && ccc !== "on" && ddd !== "on") {
             pass = numbers;
@@ -85,7 +85,7 @@ $(document).ready(function () {
         }
         // get all passwords
         passwords = pass;
-        console.log(passwords);
+        //console.log(passwords);
         // for loop to generate random number "eee" times
         for (let i = 0; i < eee; i++) {
             let a = Math.floor(Math.random() * passwords.length);
@@ -94,7 +94,7 @@ $(document).ready(function () {
             password.push(b);
         }
         password = password.join("");
-        console.log(password);
+        //console.log(password);
 
         $("#myPassword").text(password).click((event) => {clickCopy(event);});
 
