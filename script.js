@@ -12,6 +12,19 @@ const
 document.addEventListener("DOMContentLoaded", setValue);
 range.addEventListener('input', setValue);
 
+// click and copy function
+clickCopy = (event) => {
+    let el = $('<textarea></textarea>');
+    let elId = "#"+event.target.id;
+    let text = $(elId).text();
+    $(el).val(text);
+    $("#myPassword").append(el);
+    $(el).select();
+    document.execCommand('copy');
+    $(el).remove();
+    alert("Copy your password: " + text);
+}
+
 // numbers
 let numbers = [2, 3, 4, 5, 6, 7, 8, 9];
 // lowercase
@@ -83,7 +96,7 @@ $(document).ready(function () {
         password = password.join("");
         console.log(password);
 
-        $("#myPassword").text(password);
+        $("#myPassword").text(password).click((event) => {clickCopy(event);});
 
     });
 
