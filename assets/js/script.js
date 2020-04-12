@@ -22,7 +22,7 @@ clickCopy = (event) => {
     $(el).select();
     document.execCommand('copy');
     $(el).remove();
-    alert("Copy your password: " + text);
+    // alert("Copy your password: " + text);
 }
 
 // numbers
