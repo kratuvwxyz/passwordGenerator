@@ -57,7 +57,7 @@ $(document).ready(function () {
 
     $(document).on('click', '#generate', function () {
         clean();
-        $('.hideUntilClick').addClass('d-block').removeClass('d-none');
+        $('.hideUntilClick').addClass('visible').removeClass('invisible');
         let aaa = $('#gridCheck1:checked').val();
         let bbb = $('#gridCheck2:checked').val();
         let ccc = $('#gridCheck3:checked').val();
