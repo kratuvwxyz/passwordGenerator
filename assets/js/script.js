@@ -1,3 +1,27 @@
+/*
+
+        ╥╥  DESIGNED AND DEVELOPED BY...
+        ║║ 
+        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
+        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
+    ╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
+    ║║  ║║  .STUDIO             ║║     ║║     ╙╙ LLC
+    ╙╙──╜╜  SINCE TWENTYELEVEN  ╙╙─ ───╜╜
+            LLC © HTTPS://DESAIGN.APP
+            ALL RIGHTS RESERVED
+            --
+            Call: 1-860-DESAIGN
+            Mail: MEET@DESAIGN.STUDIO
+            Post: PO BOX 200001, AUSTIN TX 78720
+            --
+            Book an appointment with us at
+            https://calendly.com/desaignstudio
+
+*/
+
 // range number
 const
 	range = document.getElementById('range'),
@@ -102,3 +126,28 @@ $(document).ready(function () {
     });
 
 });
+
+
+/*
+
+        ╥╥  DESIGNED AND DEVELOPED BY...
+        ║║ 
+        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
+        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
+    ╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
+    ║║  ║║  .STUDIO             ║║     ║║     ╙╙ LLC
+    ╙╙──╜╜  SINCE TWENTYELEVEN  ╙╙─ ───╜╜
+            LLC © HTTPS://DESAIGN.APP
+            ALL RIGHTS RESERVED
+            --
+            Call: 1-860-DESAIGN
+            Mail: MEET@DESAIGN.STUDIO
+            Post: PO BOX 200001, AUSTIN TX 78720
+            --
+            Book an appointment with us at
+            https://calendly.com/desaignstudio
+
+*/
